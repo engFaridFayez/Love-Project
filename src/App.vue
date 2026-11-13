@@ -5,7 +5,7 @@ import { ref, reactive, onMounted, onBeforeUnmount } from 'vue'
 const C = {
   name: 'Merola',
   nick: 'Lolla',
-  from: 'Your Name',                       // <- your name
+  from: 'Farid',                       // <- your name
   music: '/music.mp3',                     // put your song in /public/music.mp3
   heroLine: 'Every day with you feels like a birthday, Lolla.',
   letter: [
@@ -18,10 +18,10 @@ const C = {
 
 // Put your photos in /public/images/ (1.jpg, 2.jpg ...) and write your memories
 const memories = [
-  { img: '/images/1.jpg', title: 'The day we met',   text: 'I did not know yet, but my life had just changed.', date: 'Write the date' },
-  { img: '/images/2.jpg', title: 'Our first trip',   text: 'You laughed so hard that day. I still hear it.',    date: 'Write the date' },
-  { img: '/images/3.jpg', title: 'That perfect night', text: 'Nothing special happened. It was perfect anyway.', date: 'Write the date' },
-  { img: '/images/4.jpg', title: 'Just us',          text: 'My favorite place is wherever you are.',            date: 'Write the date' }
+  { img: '/images/1.jpg', title: 'The day we met',   text: 'I did not know yet, but my life had just changed.', date: '13-8-2022' },
+  { img: '/images/2.jpg', title: 'Our first date',   text: 'You laughed so hard that day. I still hear it.',    date: '6-8-2025' },
+  { img: '/images/3.jpg', title: 'That perfect day👀', text: 'A Lot special things happened. It was perfect anyway.', date: '7-9-2025' },
+  { img: '/images/4.jpg', title: 'Just us',          text: 'My favorite place is wherever you are.',            date: '16-10-2025' }
 ]
 
 const quotes = [
